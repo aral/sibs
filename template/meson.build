@@ -1,5 +1,5 @@
 project(
-    'com.github.{GITHUB.ORG}.{GITHUB.APP}',
+    'com.github.aral.sibs',
     'vala',
     'c',
     version: '1.0.0'
@@ -49,7 +49,7 @@ executable(
 
 # Translate and install our .desktop file.
 i18n.merge_file(
-    input: 'data' / '{GITHUB.APP}.desktop.in',
+    input: 'data' / 'sibs.desktop.in',
     output: meson.project_name() + '.desktop',
     po_dir: meson.source_root() / 'po',
     type: 'desktop',
@@ -59,7 +59,7 @@ i18n.merge_file(
 
 # Translate and install our .appdata file.
 i18n.merge_file(
-    input: 'data' / '{GITHUB.APP}.appdata.xml.in',
+    input: 'data' / 'sibs.appdata.xml.in',
     output: meson.project_name() + '.appdata.xml',
     po_dir: meson.source_root() / 'po',
     install: true,

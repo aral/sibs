@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright ⓒ {COPYRIGHT.YEAR} to present, {COPYRIGHT.NAME} <{COPYRIGHT.EMAIL}> -->
+<!-- Copyright ⓒ 2021 to present, Aral Balkan <mail@ar.al> -->
 <component type="desktop">
-  <id>com.github.{GITHUB.ORG}.{GITHUB.APP}</id>
+  <id>com.github.aral.sibs</id>
   <metadata_license>CC0</metadata_license>
   <!--
     To update the content rating data of your app, you can
@@ -9,20 +9,20 @@
     https://hughsie.github.io/oars/generate.html
   -->
   <content_rating type="oars-1.1" />
-  <name>{APP.NAME}</name>
-  <summary>{APP.COMMENT}</summary>
+  <name>Small Is Beautiful Streamer</name>
+  <summary>Play Small is Beautiful streams</summary>
   <description>
-    <p>{APP.DESCRIPTION}</p>
+    <p>Enables you to play the Small Is Beautiful streams</p>
   </description>
-  <developer_name>{COPYRIGHT.NAME}</developer_name>
-  <launchable type="desktop-id">com.github.{GITHUB.ORG}.{GITHUB.APP}.desktop</launchable>
+  <developer_name>Aral Balkan</developer_name>
+  <launchable type="desktop-id">com.github.aral.sibs.desktop</launchable>
 
   <!--
     Do not uncomment or change the icon line, below. Its state is automatically
     managed by the task/preview-in-appcenter script as necessary. If you uncomment it
     manually, your Flatpak package attempts will fail.
   -->
-  <!-- <icon type="stock">com.github.{GITHUB.ORG}.{GITHUB.APP}</icon> -->
+  <!-- <icon type="stock">com.github.aral.sibs</icon> -->
 
   <custom>
     <!--
@@ -57,9 +57,9 @@
   </custom>
 
   <!-- Links. -->
-  <url type="homepage">https://github.com/{GITHUB.ORG.ORIGINAL}/{GITHUB.APP.ORIGINAL}</url>
-  <url type="bugtracker">https://github.com/{GITHUB.ORG.ORIGINAL}/{GITHUB.APP.ORIGINAL}/issues</url>
-  <url type="help">https://github.com/{GITHUB.ORG.ORIGINAL}/{GITHUB.APP.ORIGINAL}#readme</url>
+  <url type="homepage">https://github.com/aral/sibs</url>
+  <url type="bugtracker">https://github.com/aral/sibs/issues</url>
+  <url type="help">https://github.com/aral/sibs#readme</url>
 
   <!--
     If you accept donations, you can uncomment the line below and add a URL
@@ -67,7 +67,7 @@
   -->
   <!-- <url type="donation"></url> -->
 
-  <update_contact>{COPYRIGHT.EMAIL}</update_contact>
+  <update_contact>mail@ar.al</update_contact>
 
   <!--
     Screenshots
@@ -101,7 +101,7 @@
   -->
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/{GITHUB.ORG.ORIGINAL}/{GITHUB.APP.ORIGINAL}/main/screenshots/en/light-and-dark.png</image>
+      <image>https://raw.githubusercontent.com/aral/sibs/main/screenshots/en/light-and-dark.png</image>
     </screenshot>
   </screenshots>
 </component>

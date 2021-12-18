@@ -1,8 +1,8 @@
-# {APP.NAME} web site source
+# Small Is Beautiful Streamer web site source
 
-[![{APP.NAME} logo](128.svg)](https://{GITHUB.ORG.ORIGINAL}.github.io/{GITHUB.APP.ORIGINAL})
+[![Small Is Beautiful Streamer logo](128.svg)](https://aral.github.io/sibs)
 
-## [Visit the site.](https://{GITHUB.ORG.ORIGINAL}.github.io/{GITHUB.APP.ORIGINAL)
+## [Visit the site.](https://aral.github.io/{GITHUB.APP.ORIGINAL)
 
 ## Features:
 
